@@ -1,0 +1,10 @@
+.fabric/
+.git/
+.mixin.out/
+config/
+mods/
+saves/
+screenshots/
+
+options.txt
+usercache.json
