@@ -1,0 +1,21 @@
+# A block for testing directional placement with
+
+blocksettings material wood
+blocksettings rendermode cutout
+blocksettings nomobspawning
+
+blocksettings state facing north
+blocksettings state facing south
+blocksettings state facing east
+blocksettings state facing west
+
+blocksettings state shape straight
+blocksettings state shape outer_right
+blocksettings state shape outer_left
+blocksettings state shape inner_right
+blocksettings state shape inner_left
+
+blocksettings state half bottom
+blocksettings state half top
+
+register block test:stair_test

@@ -1,0 +1,14 @@
+# A block for testing directional placement with
+
+blocksettings material wood
+
+blocksettings state facing north
+blocksettings state facing south
+blocksettings state facing east
+blocksettings state facing west
+
+blocksettings state vert horizontal
+blocksettings state vert up
+blocksettings state vert down
+
+register block test:dir_test

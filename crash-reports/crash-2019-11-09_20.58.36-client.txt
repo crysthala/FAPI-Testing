@@ -1,0 +1,160 @@
+---- Minecraft Crash Report ----
+// I just don't know what went wrong :(
+
+Time: 11/9/19 8:58 PM
+Description: Ticking entity
+
+java.lang.ClassCastException: net.minecraft.class_638 cannot be cast to net.minecraft.class_3218
+	at net.minecraft.class_1297.handler$tick$zbf000(class_1297.java:2914)
+	at net.minecraft.class_1297.method_5670(class_1297.java)
+	at net.minecraft.class_1309.method_5670(class_1309.java:288)
+	at net.minecraft.class_1297.method_5773(class_1297.java:390)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2046)
+	at net.minecraft.class_1657.method_5773(class_1657.java:277)
+	at net.minecraft.class_746.method_5773(class_746.java:198)
+	at net.minecraft.class_638.method_18646(class_638.java:165)
+	at net.minecraft.class_1937.method_18472(class_1937.java:675)
+	at net.minecraft.class_638.method_18116(class_638.java:134)
+	at net.minecraft.class_310.method_1574(class_310.java:1433)
+	at net.minecraft.class_310.method_1523(class_310.java:925)
+	at net.minecraft.class_310.method_1514(class_310.java:410)
+	at net.minecraft.client.main.Main.main(Main.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:178)
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:131)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:26)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.class_1297.handler$tick$zbf000(class_1297.java:2914)
+	at net.minecraft.class_1297.method_5670(class_1297.java)
+	at net.minecraft.class_1309.method_5670(class_1309.java:288)
+	at net.minecraft.class_1297.method_5773(class_1297.java:390)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2046)
+	at net.minecraft.class_1657.method_5773(class_1657.java:277)
+	at net.minecraft.class_746.method_5773(class_746.java:198)
+	at net.minecraft.class_638.method_18646(class_638.java:165)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.class_746)
+	Entity ID: 1
+	Entity Name: crysthala
+	Entity's Exact location: 195.05, 4.00, 251.75
+	Entity's Block location: World: (195,4,251), Chunk: (at 3,0,11 in 12,15; contains blocks 192,0,240 to 207,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.class_1937.method_18472(class_1937.java:675)
+	at net.minecraft.class_638.method_18116(class_638.java:134)
+
+-- Affected level --
+Details:
+	All players: 1 total; [class_746['crysthala'/1, l='MpServer', x=195.05, y=4.00, z=251.75]]
+	Chunk stats: Client Chunk Cache: 729, 441
+	Level dimension: minecraft:overworld
+	Level name: MpServer
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: {}
+	Level spawn location: World: (192,4,240), Chunk: (at 0,0,0 in 12,15; contains blocks 192,0,240 to 207,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 3361 game time, 243 day time
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Server brand: fabric
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.class_638.method_8538(class_638.java:421)
+	at net.minecraft.class_310.method_1587(class_310.java:1923)
+	at net.minecraft.class_310.method_1514(class_310.java:425)
+	at net.minecraft.client.main.Main.main(Main.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:178)
+	at net.fabricmc.loader.launch.knot.Knot.init(Knot.java:131)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.4
+	Minecraft Version ID: 1.14.4
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_222, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), 
+	Memory: 362785680 bytes (345 MB) / 794013696 bytes (757 MB) up to 6388776960 bytes (6092 MB)
+	CPUs: 4
+	JVM Flags: 7 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx6G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn512M
+	Fabric Mods: 
+		cloth: Cloth Events 0.6.0
+		cloth-config2: Cloth Config v2 1.6.1
+		cotton: Cotton 1.0.0-rc.3
+		cotton-cauldron: Cotton Cauldron 1.0.0-rc.1
+		cotton-commons: Cotton Commons 1.0.0-rc.3
+		cotton-config: Cotton Config 1.0.0-rc.1
+		cotton-datapack: Cotton Datapack 1.0.0-rc.1
+		cotton-logging: Cotton Logging 1.0.0-rc.1
+		cotton-player-events: Cotton Player Events 1.0.0-rc.2
+		fabric: Fabric API 0.4.1+build.245-1.14
+		fabric-api-base: Fabric API Base 0.1.1+2ac73e7242
+		fabric-biomes-v1: Fabric Biomes (v1) 0.1.0+591e97ae42
+		fabric-commands-v0: Fabric Commands (v0) 0.1.1+591e97ae42
+		fabric-containers-v0: Fabric Containers (v0) 0.1.2+591e97ae42
+		fabric-content-registries-v0: Fabric Content Registries (v0) 0.1.1+591e97ae42
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.1+591e97ae42
+		fabric-dimensions-v1: fabric-dimensions-v1 0.1.0+369ab22e42
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.1.1+591e97ae42
+		fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.1.1+591e97ae42
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.1.0+591e97ae42
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.1.1+591e97ae42
+		fabric-loot-tables-v1: Fabric Loot Tables (v1) 0.1.0+591e97ae42
+		fabric-mining-levels-v0: Fabric Mining Levels (v0) 0.1.0+591e97ae42
+		fabric-models-v0: Fabric Models (v0) 0.1.0+591e97ae42
+		fabric-networking-blockentity-v0: Fabric Networking Block Entity (v0) 0.2.0+c877038942
+		fabric-networking-v0: Fabric Networking (v0) 0.1.3+591e97ae42
+		fabric-object-builders-v0: Fabric Object Builders (v0) 0.1.1+591e97ae42
+		fabric-particles-v1: fabric-particles-v1 0.1.1+c877038942
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.2.2+591e97ae42
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 0.1.1+591e97ae42
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.1.13+591e97ae42
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.1.1+c877038942
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 0.1.2+36f27aa342
+		fabric-rendering-v0: Fabric Rendering (v0) 0.1.1+591e97ae42
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.1.3+591e97ae42
+		fabric-tag-extensions-v0: Fabric Tag Extensions (v0) 0.1.1+591e97ae42
+		fabric-textures-v0: Fabric Textures (v0) 0.1.4+591e97ae42
+		fabricloader: Fabric Loader 0.6.3+build.167
+		fiber2cloth: Fiber To Cloth 1.2.0
+		function_api: Function API 1.4.0
+		jankson: Jankson 1.0.0+j1.1.2
+		libcd: LibCapableData 1.3.0+1.14.3
+		me_zeroeightsix_fiber: fiber 0.6.0-7
+		minecraft: Minecraft 1.14.4
+		roughlyenoughitems: Roughly Enough Items 3.1.8+build.35
+		staticdata: Static Data 1.0.0
+	Launched Version: fabric-loader-0.6.3+build.167-1.14.4
+	LWJGL: 3.2.2 build 10
+	OpenGL: GeForce GTX 970/PCIe/SSE2 GL version 4.5.0 NVIDIA 385.69, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	Resource Packs: vanilla, file/test
+	Current Language: English (US)
+	CPU: 4x Intel(R) Core(TM) i5-4690 CPU @ 3.50GHz

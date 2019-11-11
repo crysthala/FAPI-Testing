@@ -1,0 +1,12 @@
+# blocksettings type slab
+blocksettings material wood
+
+blocksettings state type bottom
+blocksettings state type top
+blocksettings state type double
+
+blocksettings rendermode cutout
+blocksettings nomobspawning
+blocksettings disableitem
+
+register block test:slab

@@ -1,0 +1,3 @@
+blocksettings type stairs
+blocksettings material wood
+register block test:stairs
