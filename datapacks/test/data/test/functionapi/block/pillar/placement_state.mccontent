@@ -1,0 +1,6 @@
+blockplacement all down all axis y
+blockplacement all up all axis y
+blockplacement all east all axis x
+blockplacement all west all axis x
+blockplacement all north all axis z
+blockplacement all south all axis z

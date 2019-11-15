@@ -8,3 +8,5 @@ screenshots/
 
 options.txt
 usercache.json
+
+*.gz
