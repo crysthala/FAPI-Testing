@@ -1,0 +1,344 @@
+Function api registration command reference: 
+blockplacement all all all <name> <value>
+blockplacement all all left <name> <value>
+blockplacement all all lower <name> <value>
+blockplacement all all right <name> <value>
+blockplacement all all upper <name> <value>
+blockplacement all down all <name> <value>
+blockplacement all down left <name> <value>
+blockplacement all down lower <name> <value>
+blockplacement all down right <name> <value>
+blockplacement all down upper <name> <value>
+blockplacement all east all <name> <value>
+blockplacement all east left <name> <value>
+blockplacement all east lower <name> <value>
+blockplacement all east right <name> <value>
+blockplacement all east upper <name> <value>
+blockplacement all north all <name> <value>
+blockplacement all north left <name> <value>
+blockplacement all north lower <name> <value>
+blockplacement all north right <name> <value>
+blockplacement all north upper <name> <value>
+blockplacement all south all <name> <value>
+blockplacement all south left <name> <value>
+blockplacement all south lower <name> <value>
+blockplacement all south right <name> <value>
+blockplacement all south upper <name> <value>
+blockplacement all up all <name> <value>
+blockplacement all up left <name> <value>
+blockplacement all up lower <name> <value>
+blockplacement all up right <name> <value>
+blockplacement all up upper <name> <value>
+blockplacement all west all <name> <value>
+blockplacement all west left <name> <value>
+blockplacement all west lower <name> <value>
+blockplacement all west right <name> <value>
+blockplacement all west upper <name> <value>
+blockplacement down all all <name> <value>
+blockplacement down all left <name> <value>
+blockplacement down all lower <name> <value>
+blockplacement down all right <name> <value>
+blockplacement down all upper <name> <value>
+blockplacement down down all <name> <value>
+blockplacement down down left <name> <value>
+blockplacement down down lower <name> <value>
+blockplacement down down right <name> <value>
+blockplacement down down upper <name> <value>
+blockplacement down east all <name> <value>
+blockplacement down east left <name> <value>
+blockplacement down east lower <name> <value>
+blockplacement down east right <name> <value>
+blockplacement down east upper <name> <value>
+blockplacement down north all <name> <value>
+blockplacement down north left <name> <value>
+blockplacement down north lower <name> <value>
+blockplacement down north right <name> <value>
+blockplacement down north upper <name> <value>
+blockplacement down south all <name> <value>
+blockplacement down south left <name> <value>
+blockplacement down south lower <name> <value>
+blockplacement down south right <name> <value>
+blockplacement down south upper <name> <value>
+blockplacement down up all <name> <value>
+blockplacement down up left <name> <value>
+blockplacement down up lower <name> <value>
+blockplacement down up right <name> <value>
+blockplacement down up upper <name> <value>
+blockplacement down west all <name> <value>
+blockplacement down west left <name> <value>
+blockplacement down west lower <name> <value>
+blockplacement down west right <name> <value>
+blockplacement down west upper <name> <value>
+blockplacement east all all <name> <value>
+blockplacement east all left <name> <value>
+blockplacement east all lower <name> <value>
+blockplacement east all right <name> <value>
+blockplacement east all upper <name> <value>
+blockplacement east down all <name> <value>
+blockplacement east down left <name> <value>
+blockplacement east down lower <name> <value>
+blockplacement east down right <name> <value>
+blockplacement east down upper <name> <value>
+blockplacement east east all <name> <value>
+blockplacement east east left <name> <value>
+blockplacement east east lower <name> <value>
+blockplacement east east right <name> <value>
+blockplacement east east upper <name> <value>
+blockplacement east north all <name> <value>
+blockplacement east north left <name> <value>
+blockplacement east north lower <name> <value>
+blockplacement east north right <name> <value>
+blockplacement east north upper <name> <value>
+blockplacement east south all <name> <value>
+blockplacement east south left <name> <value>
+blockplacement east south lower <name> <value>
+blockplacement east south right <name> <value>
+blockplacement east south upper <name> <value>
+blockplacement east up all <name> <value>
+blockplacement east up left <name> <value>
+blockplacement east up lower <name> <value>
+blockplacement east up right <name> <value>
+blockplacement east up upper <name> <value>
+blockplacement east west all <name> <value>
+blockplacement east west left <name> <value>
+blockplacement east west lower <name> <value>
+blockplacement east west right <name> <value>
+blockplacement east west upper <name> <value>
+blockplacement north all all <name> <value>
+blockplacement north all left <name> <value>
+blockplacement north all lower <name> <value>
+blockplacement north all right <name> <value>
+blockplacement north all upper <name> <value>
+blockplacement north down all <name> <value>
+blockplacement north down left <name> <value>
+blockplacement north down lower <name> <value>
+blockplacement north down right <name> <value>
+blockplacement north down upper <name> <value>
+blockplacement north east all <name> <value>
+blockplacement north east left <name> <value>
+blockplacement north east lower <name> <value>
+blockplacement north east right <name> <value>
+blockplacement north east upper <name> <value>
+blockplacement north north all <name> <value>
+blockplacement north north left <name> <value>
+blockplacement north north lower <name> <value>
+blockplacement north north right <name> <value>
+blockplacement north north upper <name> <value>
+blockplacement north south all <name> <value>
+blockplacement north south left <name> <value>
+blockplacement north south lower <name> <value>
+blockplacement north south right <name> <value>
+blockplacement north south upper <name> <value>
+blockplacement north up all <name> <value>
+blockplacement north up left <name> <value>
+blockplacement north up lower <name> <value>
+blockplacement north up right <name> <value>
+blockplacement north up upper <name> <value>
+blockplacement north west all <name> <value>
+blockplacement north west left <name> <value>
+blockplacement north west lower <name> <value>
+blockplacement north west right <name> <value>
+blockplacement north west upper <name> <value>
+blockplacement south all all <name> <value>
+blockplacement south all left <name> <value>
+blockplacement south all lower <name> <value>
+blockplacement south all right <name> <value>
+blockplacement south all upper <name> <value>
+blockplacement south down all <name> <value>
+blockplacement south down left <name> <value>
+blockplacement south down lower <name> <value>
+blockplacement south down right <name> <value>
+blockplacement south down upper <name> <value>
+blockplacement south east all <name> <value>
+blockplacement south east left <name> <value>
+blockplacement south east lower <name> <value>
+blockplacement south east right <name> <value>
+blockplacement south east upper <name> <value>
+blockplacement south north all <name> <value>
+blockplacement south north left <name> <value>
+blockplacement south north lower <name> <value>
+blockplacement south north right <name> <value>
+blockplacement south north upper <name> <value>
+blockplacement south south all <name> <value>
+blockplacement south south left <name> <value>
+blockplacement south south lower <name> <value>
+blockplacement south south right <name> <value>
+blockplacement south south upper <name> <value>
+blockplacement south up all <name> <value>
+blockplacement south up left <name> <value>
+blockplacement south up lower <name> <value>
+blockplacement south up right <name> <value>
+blockplacement south up upper <name> <value>
+blockplacement south west all <name> <value>
+blockplacement south west left <name> <value>
+blockplacement south west lower <name> <value>
+blockplacement south west right <name> <value>
+blockplacement south west upper <name> <value>
+blockplacement up all all <name> <value>
+blockplacement up all left <name> <value>
+blockplacement up all lower <name> <value>
+blockplacement up all right <name> <value>
+blockplacement up all upper <name> <value>
+blockplacement up down all <name> <value>
+blockplacement up down left <name> <value>
+blockplacement up down lower <name> <value>
+blockplacement up down right <name> <value>
+blockplacement up down upper <name> <value>
+blockplacement up east all <name> <value>
+blockplacement up east left <name> <value>
+blockplacement up east lower <name> <value>
+blockplacement up east right <name> <value>
+blockplacement up east upper <name> <value>
+blockplacement up north all <name> <value>
+blockplacement up north left <name> <value>
+blockplacement up north lower <name> <value>
+blockplacement up north right <name> <value>
+blockplacement up north upper <name> <value>
+blockplacement up south all <name> <value>
+blockplacement up south left <name> <value>
+blockplacement up south lower <name> <value>
+blockplacement up south right <name> <value>
+blockplacement up south upper <name> <value>
+blockplacement up up all <name> <value>
+blockplacement up up left <name> <value>
+blockplacement up up lower <name> <value>
+blockplacement up up right <name> <value>
+blockplacement up up upper <name> <value>
+blockplacement up west all <name> <value>
+blockplacement up west left <name> <value>
+blockplacement up west lower <name> <value>
+blockplacement up west right <name> <value>
+blockplacement up west upper <name> <value>
+blockplacement west all all <name> <value>
+blockplacement west all left <name> <value>
+blockplacement west all lower <name> <value>
+blockplacement west all right <name> <value>
+blockplacement west all upper <name> <value>
+blockplacement west down all <name> <value>
+blockplacement west down left <name> <value>
+blockplacement west down lower <name> <value>
+blockplacement west down right <name> <value>
+blockplacement west down upper <name> <value>
+blockplacement west east all <name> <value>
+blockplacement west east left <name> <value>
+blockplacement west east lower <name> <value>
+blockplacement west east right <name> <value>
+blockplacement west east upper <name> <value>
+blockplacement west north all <name> <value>
+blockplacement west north left <name> <value>
+blockplacement west north lower <name> <value>
+blockplacement west north right <name> <value>
+blockplacement west north upper <name> <value>
+blockplacement west south all <name> <value>
+blockplacement west south left <name> <value>
+blockplacement west south lower <name> <value>
+blockplacement west south right <name> <value>
+blockplacement west south upper <name> <value>
+blockplacement west up all <name> <value>
+blockplacement west up left <name> <value>
+blockplacement west up lower <name> <value>
+blockplacement west up right <name> <value>
+blockplacement west up upper <name> <value>
+blockplacement west west all <name> <value>
+blockplacement west west left <name> <value>
+blockplacement west west lower <name> <value>
+blockplacement west west right <name> <value>
+blockplacement west west upper <name> <value>
+blocksettings air
+blocksettings disableitem
+blocksettings ethereal
+blocksettings hardness <level>
+blocksettings invisible
+blocksettings makestairs
+blocksettings material air
+blocksettings material anvil
+blocksettings material bamboo
+blocksettings material bamboo_sapling
+blocksettings material barrier
+blocksettings material bubble_column
+blocksettings material cactus
+blocksettings material cake
+blocksettings material carpet
+blocksettings material clay
+blocksettings material cobweb
+blocksettings material earth
+blocksettings material egg
+blocksettings material fire
+blocksettings material glass
+blocksettings material ice
+blocksettings material lava
+blocksettings material leaves
+blocksettings material metal
+blocksettings material organic
+blocksettings material packed_ice
+blocksettings material piston
+blocksettings material plant
+blocksettings material portal
+blocksettings material pumpkin
+blocksettings material redstone_lamp
+blocksettings material replaceable_plant
+blocksettings material sand
+blocksettings material seagrass
+blocksettings material shulker_box
+blocksettings material snow
+blocksettings material snow_block
+blocksettings material sponge
+blocksettings material stone
+blocksettings material structure_void
+blocksettings material underwater_plant
+blocksettings material water
+blocksettings material wood
+blocksettings material wool
+blocksettings mininglevel <level>
+blocksettings nomobspawning
+blocksettings rendermode cutout
+blocksettings rendermode cutoutmipped
+blocksettings rendermode translucent
+blocksettings sound anvil
+blocksettings sound bamboo
+blocksettings sound bamboo_sapling
+blocksettings sound coral
+blocksettings sound crop
+blocksettings sound glass
+blocksettings sound grass
+blocksettings sound gravel
+blocksettings sound ladder
+blocksettings sound lantern
+blocksettings sound metal
+blocksettings sound nether_Wart
+blocksettings sound sand
+blocksettings sound scaffolding
+blocksettings sound slime
+blocksettings sound snow
+blocksettings sound stem
+blocksettings sound stone
+blocksettings sound sweet_berry_bush
+blocksettings sound wet_grass
+blocksettings sound wood
+blocksettings sound wool
+blocksettings state boolean <name>
+blocksettings state range <name> <max>
+blocksettings state <name> <value>
+blocksettings ticksrandomly
+blocksettings tool axe
+blocksettings tool hoe
+blocksettings tool pickaxe
+blocksettings tool shovel
+blocksettings tool sword
+include <id>
+itemsettings stacksize <amount>
+itemsettings type axe
+itemsettings type bow
+itemsettings type crossbow
+itemsettings type hoe
+itemsettings type normal
+itemsettings type pickaxe
+itemsettings type shield
+itemsettings type shovel
+itemsettings type sword
+itemsettings type tool
+print <message>
+register addpostfix <postfix>
+register block <id>
+register item <id>
+register variant <variant_index> <variant_name>

@@ -1,6 +1,16 @@
-blockplacement all down all axis y
-blockplacement all up all axis y
-blockplacement all east all axis x
-blockplacement all west all axis x
-blockplacement all north all axis z
-blockplacement all south all axis z
+# blockplacement side facing half state value
+# side: all up down north south east west
+# facing: all north south east west
+# half: all upper lower
+
+#blockplacement up all all axis y
+#blockplacement down all all axis y
+
+#blockplacement east all all axis x
+#blockplacement west all all axis x
+
+#blockplacement north all all axis z
+#blockplacement south all all axis z
+
+
+blockplacement all all all axis z

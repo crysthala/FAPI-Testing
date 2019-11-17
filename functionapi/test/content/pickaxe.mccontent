@@ -1,0 +1,4 @@
+# A test pickaxe
+
+itemsettings type pickaxe
+register item test:pickaxe

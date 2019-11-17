@@ -1,3 +1,7 @@
 blocksettings material wood
 
+blocksettings state axis x
+blocksettings state axis y
+blocksettings state axis z
+
 register block test:pillar
